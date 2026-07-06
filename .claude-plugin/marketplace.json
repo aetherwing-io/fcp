@@ -21,7 +21,7 @@
       "name": "fcp-drawio",
       "source": {"source": "github", "repo": "os-tack/fcp-drawio"},
       "description": "Create and edit draw.io diagrams through intent-level commands",
-      "version": "0.2.11",
+      "version": "0.2.12",
       "license": "MIT",
       "category": "development",
       "keywords": ["drawio", "diagrams", "architecture", "mcp"]
@@ -75,7 +75,7 @@
       "name": "fcp-rust",
       "source": {"source": "github", "repo": "os-tack/fcp-rust"},
       "description": "Query and refactor Rust codebases through intent-level commands",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "license": "MIT",
       "category": "development",
       "keywords": ["rust", "rust-analyzer", "refactoring", "mcp"]

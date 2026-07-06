@@ -4,10 +4,10 @@ if command -v fcp-regex &>/dev/null; then
   exec fcp-regex "$@"
 else
   echo "fcp-regex not found. Install:" >&2
-  echo "  curl -fsSL https://aetherwing-io.github.io/fcp-regex/install.sh | sh" >&2
+  echo "  curl -fsSL https://os-tack.github.io/fcp-regex/install.sh | sh" >&2
   echo "" >&2
   echo "Or build from source:" >&2
-  echo "  cargo install --path ~/projects/fcp/fcp-regex" >&2
+  echo "  cargo install --git https://github.com/os-tack/fcp-regex" >&2
   echo "" >&2
   echo "Or run /fcp:setup in Claude Code to install all FCP dependencies." >&2
   exit 1

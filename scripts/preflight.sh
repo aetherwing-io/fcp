@@ -13,7 +13,7 @@ fi
 # fcp-terraform — required for terraform server
 if ! command -v fcp-terraform &>/dev/null; then
   missing+=("  fcp-terraform — required for terraform")
-  missing+=("    Install: curl -LsSf https://github.com/aetherwing-io/fcp-terraform/releases/latest/download/install.sh | sh")
+  missing+=("    Install: curl -LsSf https://github.com/os-tack/fcp-terraform/releases/latest/download/install.sh | sh")
 fi
 
 # node — required for drawio (should always be present with Claude Code)
