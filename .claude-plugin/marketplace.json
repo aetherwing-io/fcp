@@ -4,99 +4,186 @@
     "name": "Scott Meyer"
   },
   "metadata": {
-    "description": "FCP plugin marketplace — MCP servers for complex file formats, Python/Rust codebases, regex construction, and PDF documents",
-    "version": "0.2.25"
+    "description": "FCP plugin marketplace \u2014 MCP servers for complex file formats, Python/Rust codebases, regex construction, and PDF documents",
+    "version": "0.2.26"
   },
   "plugins": [
     {
       "name": "fcp",
       "source": "./",
-      "description": "All FCP servers — diagrams, infrastructure, music, spreadsheets, presentations, PDF documents, Python/Rust codebases, and regex construction",
-      "version": "0.2.25",
+      "description": "All FCP servers \u2014 diagrams, infrastructure, music, spreadsheets, presentations, PDF documents, Python/Rust codebases, and regex construction",
+      "version": "0.2.26",
       "license": "MIT",
       "category": "development",
-      "keywords": ["fcp", "mcp", "drawio", "terraform", "midi", "sheets", "slides", "pdf", "python", "rust", "regex"]
+      "keywords": [
+        "fcp",
+        "mcp",
+        "drawio",
+        "terraform",
+        "midi",
+        "sheets",
+        "slides",
+        "pdf",
+        "python",
+        "rust",
+        "regex"
+      ]
     },
     {
       "name": "fcp-drawio",
-      "source": {"source": "github", "repo": "os-tack/fcp-drawio"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-drawio"
+      },
       "description": "Create and edit draw.io diagrams through intent-level commands",
-      "version": "0.2.12",
+      "version": "0.3.0",
       "license": "MIT",
       "category": "development",
-      "keywords": ["drawio", "diagrams", "architecture", "mcp"]
+      "keywords": [
+        "drawio",
+        "diagrams",
+        "architecture",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-terraform",
-      "source": {"source": "github", "repo": "os-tack/fcp-terraform"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-terraform"
+      },
       "description": "Generate Terraform HCL through resource declarations",
-      "version": "0.1.8",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "devops",
-      "keywords": ["terraform", "hcl", "infrastructure", "mcp"]
+      "keywords": [
+        "terraform",
+        "hcl",
+        "infrastructure",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-midi",
-      "source": {"source": "github", "repo": "os-tack/fcp-midi"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-midi"
+      },
       "description": "Semantic MIDI music composition",
-      "version": "0.1.11",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "creative",
-      "keywords": ["midi", "music", "composition", "mcp"]
+      "keywords": [
+        "midi",
+        "music",
+        "composition",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-sheets",
-      "source": {"source": "github", "repo": "os-tack/fcp-sheets"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-sheets"
+      },
       "description": "Semantic spreadsheet operations for LLMs",
-      "version": "0.1.13",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "documents",
-      "keywords": ["spreadsheet", "excel", "xlsx", "mcp"]
+      "keywords": [
+        "spreadsheet",
+        "excel",
+        "xlsx",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-slides",
-      "source": {"source": "github", "repo": "os-tack/fcp-slides"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-slides"
+      },
       "description": "Create and edit PowerPoint presentations through semantic commands",
-      "version": "0.1.4",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "documents",
-      "keywords": ["slides", "powerpoint", "pptx", "presentations", "mcp"]
+      "keywords": [
+        "slides",
+        "powerpoint",
+        "pptx",
+        "presentations",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-python",
-      "source": {"source": "github", "repo": "os-tack/fcp-python"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-python"
+      },
       "description": "Query and refactor Python codebases through intent-level commands",
-      "version": "0.1.6",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "development",
-      "keywords": ["python", "pylsp", "refactoring", "code-intelligence", "mcp"]
+      "keywords": [
+        "python",
+        "pylsp",
+        "refactoring",
+        "code-intelligence",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-rust",
-      "source": {"source": "github", "repo": "os-tack/fcp-rust"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-rust"
+      },
       "description": "Query and refactor Rust codebases through intent-level commands",
-      "version": "0.1.4",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "development",
-      "keywords": ["rust", "rust-analyzer", "refactoring", "mcp"]
+      "keywords": [
+        "rust",
+        "rust-analyzer",
+        "refactoring",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-regex",
-      "source": {"source": "github", "repo": "os-tack/fcp-regex"},
-      "description": "Build regexes via named fragment composition — no raw syntax, no escaping burden",
-      "version": "0.1.2",
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-regex"
+      },
+      "description": "Build regexes via named fragment composition \u2014 no raw syntax, no escaping burden",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "development",
-      "keywords": ["regex", "pattern-matching", "composition", "mcp"]
+      "keywords": [
+        "regex",
+        "pattern-matching",
+        "composition",
+        "mcp"
+      ]
     },
     {
       "name": "fcp-pdf",
-      "source": {"source": "github", "repo": "os-tack/fcp-pdf"},
+      "source": {
+        "source": "github",
+        "repo": "os-tack/fcp-pdf"
+      },
       "description": "Read, create, and manipulate PDF documents with themes, layout engine, annotations, and redaction",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "license": "MIT",
       "category": "documents",
-      "keywords": ["pdf", "documents", "compose", "annotations", "mcp"]
+      "keywords": [
+        "pdf",
+        "documents",
+        "compose",
+        "annotations",
+        "mcp"
+      ]
     }
   ]
 }

@@ -11,7 +11,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@ostk-ai/fcp-core": "^0.1.0",
+    "@ostk-ai/fcp-core": "^0.2.0",
     "@modelcontextprotocol/sdk": "^1.12.1"
   },
   "devDependencies": {
